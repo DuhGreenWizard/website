@@ -1,0 +1,100 @@
+@font-face {
+	font-family: Almendra;
+	src:url(Fonts/Almendra-Regular.otf);
+	font-family: Jacquard;
+	src:url(Fonts/Jacquard12-Regular.ttf);
+}
+
+body{
+	background-image: url(Images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+	margin: 0%;
+}
+
+header{
+	text-align: center;
+}
+
+.navbar{
+	text-align: center;
+}
+
+.navbar ul{
+	font-family: Jacquard;
+	font-size: 2em;
+	display: inline-block;
+	list-style-type: none;
+	background-color: green;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.navbar a{
+	color: fuchsia;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+}
+
+.navbar a:hover{
+	background-color: darkgreen;
+}
+
+.navbar li{
+	float: left;
+}
+
+main{
+	background-color: darkgreen;
+	display: inline;
+	font-family: Almendra;
+}
+
+ /* Customize the embedded stream container */
+ iframe {
+	border: none; /* Remove iframe border */
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+	border-radius: 10px; /* Rounded corners for a modern look */
+	overflow: hidden; /* Hide horizontal overflow */
+	background-color: darkgreen; /* Set background color to white */
+	margin: 0 auto; /* Center the iframe horizontally */
+  }
+ 
+  /* Style the iframe title (optional) */
+  iframe[title="Stream"] {
+	font-size: 18px; /* Adjust the title font size */
+	font-weight: bold; /* Make the title bold */
+	padding: 10px; /* Add some padding around the title */
+  }
+ 
+  /* Style the iframe content (optional) */
+  iframe[title="Stream"] body {
+	margin: 0; /* Reset margin inside the iframe */
+	padding: 10px; /* Add padding inside the iframe content */
+  }
+
+  /* Style the iframe title (optional) */
+  iframe[title="chat"] {
+	font-size: 18px; /* Adjust the title font size */
+	font-weight: bold; /* Make the title bold */
+	padding: 10px; /* Add some padding around the title */
+  }
+ 
+  /* Style the iframe content (optional) */
+  iframe[title="chat"] body {
+	margin: 0; /* Reset margin inside the iframe */
+	padding: 10px; /* Add padding inside the iframe content */
+  }
+
+.stream {
+	display: flex;
+	margin-top: 10px;
+	/*flex-wrap: wrap;*/
+	/*align-content: center;*/
+	gap: 1em;
+	justify-content: center;
+}

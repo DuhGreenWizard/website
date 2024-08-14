@@ -1,0 +1,75 @@
+@font-face {
+	font-family: Almendra;
+	src:url(Fonts/Almendra-Regular.otf);
+	font-family: Jacquard;
+	src:url(Fonts/Jacquard12-Regular.ttf);
+}
+
+body{
+	background-image: url(Images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+	margin: 0%;
+}
+
+header{
+	text-align: center;
+}
+
+.navbar{
+	text-align: center;
+}
+
+.navbar ul{
+	font-family: Jacquard;
+	font-size: 2em;
+	display: inline-block;
+	list-style-type: none;
+	background-color: green;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.navbar a{
+	color: fuchsia;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+}
+
+.navbar a:hover{
+	background-color: darkgreen;
+}
+
+.navbar li{
+	float: left;
+}
+
+main{
+	background-color: darkgreen;
+	display: inline;
+	font-family: Almendra;
+	text-align: center;
+}
+
+h1{
+	background-color: darkgreen;
+	display: inline;
+	font-size: 1.5em;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.tgw{
+	font-family: Jacquard;
+	font-size: 1.5em;
+	color: green;
+	text-shadow: 3px 3px black;
+}
+
+.cursor {
+    cursor: url("Images/cursor.png");
+}
