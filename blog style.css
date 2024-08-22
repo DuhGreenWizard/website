@@ -1,0 +1,125 @@
+@font-face {
+	font-family: Almendra;
+	src:url(Fonts/Almendra-Regular.otf);
+	font-family: Jacquard;
+	src:url(Fonts/Jacquard12-Regular.ttf);
+}
+
+body{
+	background-image: url(./Images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+	margin: 0%;
+}
+
+header{
+	text-align: center;
+}
+
+.navbar{
+	text-align: center;
+}
+
+.navbar ul{
+	font-family: Jacquard;
+	font-size: 2em;
+	display: inline-block;
+	list-style-type: none;
+	background-color: green;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.navbar a{
+	color: fuchsia;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+}
+
+.navbar a:hover{
+	background-color: darkgreen;
+}
+
+.navbar li{
+	float: left;
+}
+
+.cursor {
+    cursor: url("Images/cursor.png");
+}
+
+/*journal stuff*/
+
+* {
+	box-sizing: border-box;
+  }
+    
+  /* Header/Blog Title */
+  .header {
+	font-family: Jacquard;
+	color: antiquewhite;
+	text-shadow: 5px 5px black;
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: rgb(39, 39, 39);
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+	float: left;
+	width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+	font-family: Almendra;
+	color: antiquewhite;
+	background-color: rgba(39, 39, 39, 0.904);
+	padding: 20px;
+	margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+	padding: 20px;
+	font-family: Almendra;
+	color: antiquewhite;
+	text-align: center;
+	background: rgb(39, 39, 39);
+	margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+	  width: 100%;
+	  padding: 0;
+	}
+  }
