@@ -57,11 +57,11 @@ header{
 	margin: 0; /* Important for vertical align on mobile phones */
   }
   
-  /*button.dropbtn a {
+  button.dropbtn a {
 	font-size: inherit;
 	border: none;
 	padding: 0px;
-  }*/
+  }
 
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
